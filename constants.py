@@ -22,9 +22,9 @@ from pygame.locals import *
 
 # Configuration of building shape block
 # Width of the shape block
-BWIDTH     = 30
+BWIDTH     =  int(height['pure'] / 20)
 # Height of the shape block
-BHEIGHT    = 30
+BHEIGHT    =  BHEIGHT
 # Width of the line around the block
 MESH_WIDTH = 2
 
