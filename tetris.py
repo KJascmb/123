@@ -91,7 +91,7 @@ class Tetris(object):
                     self.active_block.move(-constants.BWIDTH,0)
                 if ev.key == pygame.K_RIGHT:
                     self.active_block.move(constants.BWIDTH,0)
-                if ev.key == pygame.K_c:
+                if ev.key == pygame.K_0:
                     self.active_block.rotate()
                 if ev.key == pygame.K_p:
                     self.pause()
@@ -336,6 +336,6 @@ class Tetris(object):
         pygame.display.flip()
 
 if __name__ == "__main__":
-    Tetris(20,35).run()
+    Tetris(20,20).run()
 
 #Special add to try pull requests
